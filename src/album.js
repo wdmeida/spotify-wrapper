@@ -1,7 +1,7 @@
 /* global fetch */
 
-import { API_URL } from './config';
-import { toJSON } from './utils';
+import API_URL from './config';
+import toJSON from './utils';
 
 export const getAlbum = id =>
   fetch(`${API_URL}/albums/${id}`).then(toJSON);
