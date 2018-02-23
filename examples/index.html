@@ -11,9 +11,12 @@
   <div id="albums"></div>
 
   <script src="../dist/spotify-wrapper.umd.min.js"></script>
-
   <script>
-    const albums = spotifyWrapper.searchAlbums('Incubus');
+    const spotify = new SpotifyWrapper({
+      token: 'BQDa7K2phFilmP6Jr8_SNFUBM-hmVnj_xNmiamGCkx3_Gzm-8C4sCacydhg5IW7ONGzSOpS462UMJy_-7OXD8XCAM4uu0JitR6FoHDRNgHsvSXJgXc73G3gZZtrDmns4UzM183GP8i5LcQ'
+    })
+
+    const albums = spotify.search.albums('Incubus');
     const albumsEl = document.getElementById('albums');
 
     albums
@@ -22,7 +25,7 @@
           `<img src=${item.images[0].url} alt=${item.name}>`
         ).join('');
 
-        albumsEl.innerHTML(markup);
+        albumsEl.innerHTML = markup;
       })
   </script>
 </body>
