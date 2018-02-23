@@ -2,7 +2,7 @@
 
 import {
   API_URL,
-  HEADERS
+  HEADERS,
 } from './config';
 import toJSON from './utils';
 
