@@ -1,3 +1,4 @@
+/* global fetch */
 import album from './album';
 import search from './search';
 
