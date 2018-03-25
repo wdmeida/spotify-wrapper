@@ -1,12 +1,12 @@
 import chai, { expect } from 'chai';
 import sinon from 'sinon';
 import sinonChai from 'sinon-chai';
-import sininStubPromise from 'sinon-stub-promise';
+import sinonStubPromise from 'sinon-stub-promise';
 
 import SpotifyWrapper from '../src';
 
 chai.use(sinonChai);
-sininStubPromise(sinon);
+sinonStubPromise(sinon);
 
 describe('SpotifyWrapper Library', () => {
   it('should create on instance of SpotifyWrapper', () => {
