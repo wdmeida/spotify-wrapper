@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/wdmeida/spotify-wrapper.svg?branch=master)](https://travis-ci.org/wdmeida/spotify-wrapper) [![Coverage Status](https://coveralls.io/repos/github/wdmeida/spotify-wrapper/badge.svg?branch=master)](https://coveralls.io/github/wdmeida/spotify-wrapper?branch=master)
 
-A wrapper to work with the [Spotify Web API](https://developer.spotify.com/web-api/).
+A wrapper to work with the [Spotify Web API](https://developer.spotify.com/web-api/), developed during the course of [JS com TDD na prática](https://www.udemy.com/js-com-tdd-na-pratica/learn/v4/overview).
 
 ## Browser Support
 
@@ -218,14 +218,6 @@ Please read [CONTRIBUTING.md](https://github.com/wdmeida/spotify-wrapper/blob/ma
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Authors
-
-| ![Wagner Almeida](https://avatars2.githubusercontent.com/u/9699741?s=400&u=d13dc23a68981463adfc43efbd7a26a664455711&v=4)|
-|:---------------------:|
-|  [Wagner Almeida](https://github.com/wdmeida/)   |
-
-See also the list of [contributors](https://github.com/wdmeida/spotify-wrapper/contributors) who participated in this project.
 
 ## License
 
